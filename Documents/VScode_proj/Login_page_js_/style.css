@@ -1,0 +1,70 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    justify-content: center;
+    background-image: url(galaxy-night-panorama.jpg);
+    background-size: cover;
+}
+
+.box{
+    width: 300px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: transparent;
+    text-align: center;
+}
+
+.box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.box input[type="text"], .box input[type="password"]{
+    bottom: 0;
+    background-color: none ;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid rgb(232, 232, 34);
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    columns: White;
+    border-radius: 25px;
+    transition: 0.25px;
+}
+
+.box input[type="text"]:focus, .box input[type="password"]:focus{
+    width: 250px;
+    border-color: rgba(92, 228, 47, 0.605);
+}
+
+.box input[type="submit"]{
+    bottom: 0;
+    background-color: none ;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid rgb(151, 64, 150);
+    padding: 14px 35px;
+    width: 220px;
+    outline: none;
+    columns: White;
+    border-radius: 25px;
+    transition: 0.25px;
+    cursor: pointer;
+
+}
+
+
+
+.box input[type="submit"]:hover{
+    background-color: gainsboro;
+
+}
